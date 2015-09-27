@@ -96,21 +96,19 @@ MIT
 
 **Free Software, Hell Yeah!**
 
-[//]:
-
-   [val]: <https://github.com/RootKitDev/Valkyria>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [node.js]: <http://nodejs.org>
-   [express]: <http://expressjs.com>
-   [sarah]: <http://news.encausse.net/sarah/>
-   [gladys]: <http://gladysproject.com>
-   [jasper]: <https://jasperproject.github.io/>
-   [node4]: <https://nodejs.org/en/blog/release/v4.0.0/>
-   [prolog]: <http://www.swi-prolog.org/>
-   [py]: <https://www.python.org/>
-   [node]: <https://nodejs.org/en/>
-   [py2.7]: <https://www.python.org/downloads/>
-   [alsa]: <http://blog.scphillips.com/posts/2013/01/sound-configuration-on-raspberry-pi-with-alsa/>
-   [pack]: <https://packages.debian.org/fr/wheezy/libttspico-utils>
-   [tts]: <http://rpihome.blogspot.fr/2015/02/installing-pico-tts.html>
-   [libpico]: <https://packages.debian.org/fr/wheezy/libttspico-utils>
+[val]: <https://github.com/RootKitDev/Valkyria>
+[git-repo-url]: <https://github.com/joemccann/dillinger.git>
+[node.js]: <http://nodejs.org>
+[express]: <http://expressjs.com>
+[sarah]: <http://news.encausse.net/sarah/>
+[gladys]: <http://gladysproject.com>
+[jasper]: <https://jasperproject.github.io/>
+[node4]: <https://nodejs.org/en/blog/release/v4.0.0/>
+[prolog]: <http://www.swi-prolog.org/>
+[py]: <https://www.python.org/>
+[node]: <https://nodejs.org/en/>
+[py2.7]: <https://www.python.org/downloads/>
+[alsa]: <http://blog.scphillips.com/posts/2013/01/sound-configuration-on-raspberry-pi-with-alsa/>
+[pack]: <https://packages.debian.org/fr/wheezy/libttspico-utils>
+[tts]: <http://rpihome.blogspot.fr/2015/02/installing-pico-tts.html>
+[libpico]: <https://packages.debian.org/fr/wheezy/libttspico-utils>
