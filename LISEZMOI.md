@@ -47,7 +47,6 @@ Pour debian le [package][libpico] "*libttspico-utils*" est disponible dans les d
 
 ---
 #### Récupérer les sources :
-
 Pour récupérer les sources, tapez :
 ```sh
 $ cd ~/
