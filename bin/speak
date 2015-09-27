@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ $# -lt 1 ]
+then
+	pico2wave -l fr-FR -w speak.wav "Aucun paramètres n'a été donnés"
+	echo "Lecture du message ..."
+	sudo aplay speak.wav > /dev/null 2>&1
+	rm speak.wav
+else
+	pico2wave -l fr-FR -w speak.wav "$*"
+	echo "Lecture du message ..."
+	sudo aplay speak.wav > /dev/null 2>&1
+	rm speak.wav
+fi
