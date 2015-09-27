@@ -33,7 +33,7 @@ adjust the sound output:
 the [alsa-utils][pack] package (already installed on Raspbian) provide tools to [configure][alsa] the sound output.
 
 ---
-##### creation of the "TTS engine" (Text to Speech):
+##### Creation of the "TTS engine" (Text to Speech):
 
 Valkyria uses a command (bash script) "speak".
 
@@ -45,7 +45,7 @@ For debian [package][libpico] "libttspico-utils" is available in the depot "non-
 
 
 ---
-#### get the sources:
+#### Get the sources:
 
 To retrieve the source type:
 ```sh
@@ -56,7 +56,7 @@ Once the sources on your machine, test the command "speak" (ATTENTION command "p
 $ ./bin/speak  "Voice synthesis test"
 ```
 ---
-### use
+### Use:
 
 If your Rpi talking, you can launch the application:
 ```sh
@@ -77,7 +77,7 @@ Valkyria do not know much yet: she knows just the "jean parents" whose links are
 Later I hope to be able to afford a Valkyria "learn" from itself, modify these files, creating new files, etc.
 
 ---
-#### contribution
+#### Contribution
 
 Want to contribute? Great !
 
