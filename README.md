@@ -85,10 +85,10 @@ Send me your ideas and comments by email rootkit.dev@gmail.com.
 
 Thank you to formulate your messages (ideas) with the following constraints:
 
-     The title must include the following elements "Valkyria" "ModuleName" "Author"
-     The body must include:
-         operation "general" module
-         a list (not exhaustive) module (optional for non-developers, for developers recommended)
+  - The title must include the following elements "Valkyria" "ModuleName" "Author"
+  - The body must include:
+  	  - operation "general" module
+      - a list (not exhaustive) module (optional for non-developers, for developers recommended)
 
 "Author" serviera me to quote contributors, in a file, so thanked for their efforts
 
