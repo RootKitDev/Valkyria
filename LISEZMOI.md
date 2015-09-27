@@ -52,7 +52,7 @@ Pour récupérer les sources tapez :
 ```sh
 $ git clone https://github.com/RootKitDev/Valkyria NouveauDossier
 ```
-Une fois les sources sur votre machine, testez la commande "speak" (ATTENTION la commande "*pico2wave*" est réglée pour du texte en FRANÇAIS. Pensez a adapté pico a votre langue via ```man pico2wave```) :
+Une fois les sources sur votre machine, testez la commande "speak" (ATTENTION ! la commande "*pico2wave*" est réglée pour du texte en FRANÇAIS. Pensez a adapté pico a votre langue via ```man pico2wave```) :
 ```sh
 $ ./bin/speak "test de synthèse vocal" 
 ```
