@@ -1,7 +1,7 @@
 # Valkyria
 
 Valkyria is a robotics project "software", like the "Persocom" manga and animated "Chobits".
-The base and foundation of Valkyria are 3 more or less known projects in the field of home automation: [S.A.R.A.H.][sarah] JP ENCAUSSE (fr), [GLADYS][gladys] (fr / en) and [JASPER][jasper] (en). Valkyria is developing a raspberry (raspbian *Wheezy* to migrate towards "raspbian *Jessie*").
+The base and foundation of Valkyria are three more or less known projects in the field of home automation: [S.A.R.A.H.][sarah] JP ENCAUSSE (fr), [GLADYS][gladys] (fr/en) and [JASPER][jasper] (en). Valkyria is developing a raspberry Pi (raspbian *Wheezy* to migrate towards "raspbian *Jessie*").
 
 ---
 ### Languages
@@ -10,7 +10,7 @@ Valkyria currently uses three languages:
  - [NodeJS][node] ([4.X][node4]) (Human–computer interaction)
  - [Prolog][prolog] (Base rules and facts)
 
-On the long term Python will not be part of Valkyria, which will be entirely written in NodeJS and Prolog (or equivalent) will remain the basis for rules/facts
+On the long term Python will not be part of Valkyria, which will be entirely written in NodeJS and Prolog (or equivalent) will remain the base rules/facts
 
 ---
 ### Version
@@ -21,19 +21,21 @@ Valkyria course is open source with a [public repository] [val] on GitHub.
 ---
 ### Installation
 
-WARNING ! : Valkyria is currently available only a single language FRENCH. Think translate her answers!
+WARNING ! :
+Valkyria is currently available only a single language: the FRENCH. Don't forget to  translate her answers!
+
 ##### Prerequisites (Raspbian / Debian)
 
 ---
 ##### The sound
-adjust the sound output:
+Set the output sound is:
 - in HDMI
 - in Jack
 
-the [alsa-utils][pack] package (already installed on Raspbian) provide tools to [configure][alsa] the sound output.
+[alsa-utils][pack] package (already installed on Raspbian) provide tools to [configure][alsa] the sound output.
 
 ---
-##### creation of the "TTS engine" (Text to Speech):
+##### Creation of the "TTS engine" (Text to Speech):
 
 Valkyria uses a command (bash script) "speak".
 
@@ -45,52 +47,55 @@ For debian [package][libpico] "libttspico-utils" is available in the depot "non-
 
 
 ---
-#### get the sources:
+#### Getting the source:
 
-To retrieve the source type:
+To get the source, run:
 ```sh
-$ git clone https://github.com/RootKitDev/Valkyria NouveauDossier
+$ cd ~/
+$ git clone https://github.com/RootKitDev/Valkyria NewDir
 ```
-Once the sources on your machine, test the command "speak" (ATTENTION command "pico2wave" is set to the text FRENCH Think pico adapted to your language via pico2wave man.):
+Once the sources on your machine, test the command "speak" (WARNING ! The command "*pico2wave*" is set to the FRENCH text. Don't forget to pico suited to your language via ```man pico2wave```):
 ```sh
-$ ./bin/speak  "Voice synthesis test"
+$ cd ~/NewDir
+$ ./bin/speak "voice synthesis test"
 ```
+
 ---
-### use
+### Use:
 
 If your Rpi talking, you can launch the application:
 ```sh
-$ Cd ~ / NouveauDossier
-$ Node valkyria.js
+$ cd ~/NewDir
+$ node valkyria.js
 ```
-If when launching the application errors related to dependencies / modules happens is, run
+If when launching the application errors related to dependencies/modules occurs, run
 ```sh
-$ Cd NouveauDossier
-$ Npm install
+$ cd ~/NewDir
+$ npm install
 ```
-"nmp install": No arguments from the root directory ("NouveauDossier" where package.json is) will install the dependencies of the application
+```nmp install```: No arguments from the root directory ("NewDir" where package.json is) will install the dependencies of the application
 
-To interact with Valkyria log on to its web interface: http: // IP_RPi: 8080 you can now Chat with Valkyria.
+To interact with Valkyria log on to her web interface: "http://IP_RPi:8080" you can now Chat with Valkyria.
 
-Valkyria do not know much yet: she knows just the "jean parents" whose links are written in Prolog via ./lib/arbre.pl, so you can ask Valkyria "who is the father of Jean "(or mother) (no accent at the moment and without"? "as well). This file is the database file rules / facts which served for testing. If you know Prolog, enjoy and change or add rules and facts
+Valkyria don't know much yet: she knows just the "jean parents" whose links are written in ``./lib/arbre.pl`` via Prolog, so you can ask Valkyria "who is the father of Jean "(or mother) (no accent at the moment and without"? "as well). This file is the base rules/facts which served for testing. If you know Prolog, enjoy and change or add rules and facts
 
-Later I hope to be able to afford a Valkyria "learn" from itself, modify these files, creating new files, etc.
+Later I hope to be able to allow Valkyria "learn" from herself, modify these files, creating new files, etc.
 
 ---
-#### contribution
+#### Contribution:
 
 Want to contribute? Great !
 
-Send me your ideas and comments by email rootkit.dev@gmail.com.
+Send me your ideas and comments by email: <rootkit.dev@gmail.com>.
 
-Thank you to formulate your messages (ideas) with the following constraints:
+Thank you to provide your email (ideas) according to the following constraints:
 
-  - The title must include the following elements "Valkyria" "ModuleName" "Author"
+  - The title must include the following elements: *"Valkyria" "ModuleName" "Author"*
   - The body must include:
-  	  - operation "general" module
-      - a list (not exhaustive) module (optional for non-developers, for developers recommended)
+  	  - the general operation of the module
+      - a list (not exhaustive) module (*optional for non-developers, for developers recommended*)
 
-"Author" serviera me to quote contributors, in a file, so thanked for their efforts
+"Author" serve me to quote contributors, to thank them for their efforts
 
 ----
 ### License
@@ -117,5 +122,3 @@ MIT
 [pack]: <https://packages.debian.org/fr/wheezy/libttspico-utils>
 [tts]: <http://rpihome.blogspot.fr/2015/02/installing-pico-tts.html>
 [libpico]: <https://packages.debian.org/fr/wheezy/libttspico-utils>
-
-

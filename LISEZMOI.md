@@ -22,7 +22,7 @@ Bien sûr Valkyria est open source avec un [dépôt public][val] sur GitHub.
 ### Installation
 
 ATTENTION ! :
-Valkyria n'est actuellement disponible qu'en une seul langage le FRANÇAIS. Pensez à traduire ses réponses !
+Valkyria n'est actuellement disponible qu'en une seule langue le FRANÇAIS. Pensez à traduire ses réponses !
 
 ##### Pré-requis (raspbian / Debian)
 
@@ -48,12 +48,14 @@ Pour debian le [package][libpico] "*libttspico-utils*" est disponible dans les d
 ---
 #### Récupérer les sources :
 
-Pour récupérer les sources tapez :
+Pour récupérer les sources, tapez :
 ```sh
+$ cd ~/
 $ git clone https://github.com/RootKitDev/Valkyria NouveauDossier
 ```
-Une fois les sources sur votre machine, testez la commande "speak" (ATTENTION la commande "*pico2wave*" est réglée pour du texte en FRANÇAIS. Pensez a adapté pico a votre langue via ```man pico2wave```) :
+Une fois les sources sur votre machine, testez la commande "speak" ( ATTENTION ! la commande "*pico2wave*" est réglée pour du texte en FRANÇAIS. Pensez a adapté pico a votre langue via ```man pico2wave```) :
 ```sh
+$ cd ~/NopuveauDossier
 $ ./bin/speak "test de synthèse vocal" 
 ```
 
@@ -66,16 +68,17 @@ $ node valkyria.js
 ```
 Si lors du lancement de l'application une erreur liée aux dépendances/modules se produit, exécutez
 ```sh
+$ cd ~/NouveauDossier
 $ npm install
 ```
 ```nmp install``` : Sans arguments et depuis le répertoire racine ("NouveauDossier" là où se trouve package.json) va installer les dépendances de l'application
 
-Pour interagir avec Valkyria connectez-vous sur son interface web : http://IP_RPi:8080
+Pour interagir avec Valkyria connectez-vous sur son interface web : "http://IP_RPi:8080"
 vous pouvez à présent tchatez avec Valkyria.
 
 Valkyria ne sait pas grand-chose pour le moment :
 elle connait juste les "parents de jean", dont les liens sont écrits via Prolog dans ``./lib/arbre.pl``,
-vous pouvez donc demander à Valkyria "qui est le pere de jean" (ou la mere) (sans accent pour le moment et sans "?" également). Ce fichier (``./lib/arbre.pl`` )est le fichier de base de règles/faits qui a servi pour les tests. Si vous connaissez Prolog, profitez en et changez les ou ajoutez des règles et faits
+vous pouvez donc demander à Valkyria "qui est le pere de jean" (ou la mere) (sans accent pour le moment et sans "?" également). Ce fichier est le fichier de base de règles/faits qui a servi pour les tests. Si vous connaissez Prolog, profitez en et changez les ou ajoutez des règles et faits
 
 Plus tard j'espère permettre à Valkyria de pouvoir "apprendre" d'elle-même, en modifier ces fichiers, en créant de nouveaux fichier, etc 
 
@@ -84,13 +87,13 @@ Plus tard j'espère permettre à Valkyria de pouvoir "apprendre" d'elle-même, e
 
 Vous voulez contribuer ? Très bien !
 
-Envoyez-moi vos idées et commentaires par mail <rootkit.dev@gmail.com>.
+Envoyez-moi vos idées et commentaires par mail : <rootkit.dev@gmail.com>.
 
 Merci de formuler vos mails (d'idées) selon les contraintes suivantes :
 
  - Le titre doit comporter les éléments suivants : *"Valkyria" "ModuleName" "Author"*
  - Le corps doit comprendre :
-    -  le fonctionnement "général" du module
+    -  le fonctionnement général du module
     -  une liste (non exhaustive) des modules (*optionnel pour les non-développeurs , recommandé pour les développeurs*)
 
 "Author" me servira à citer les contributeurs, afin de les remercier pour leurs efforts
