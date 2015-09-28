@@ -63,15 +63,11 @@ $ ./bin/speak "voice synthesis test"
 ---
 ### Use:
 
-If your Rpi talking, you can launch the application:
-```sh
-$ cd ~/NewDir
-$ node valkyria.js
-```
-If when launching the application errors related to dependencies/modules occurs, run
+If your Rpi talking, you can install dependencies and launch the application:
 ```sh
 $ cd ~/NewDir
 $ npm install
+$ node valkyria.js
 ```
 ```nmp install```: No arguments from the root directory ("NewDir" where package.json is) will install the dependencies of the application
 
