@@ -60,16 +60,13 @@ $ ./bin/speak "test de synthèse vocal"
 
 ---
 ### Utilisation
-Si votre Rpi parle, vous pouvez lancer l'application:
-```sh
-$ cd ~/NouveauDossier
-$ node valkyria.js
-```
-Si lors du lancement de l'application une erreur liée aux dépendances/modules se produit, exécutez
+Si votre Rpi parle, vous pouvez installer les dépendances et lancer l'application:
 ```sh
 $ cd ~/NouveauDossier
 $ npm install
+$ node valkyria.js
 ```
+
 ```nmp install``` : Sans arguments et depuis le répertoire racine ("NouveauDossier" là où se trouve package.json) va installer les dépendances de l'application
 
 Pour interagir avec Valkyria connectez-vous sur son interface web : "http://IP_RPi:8080"
