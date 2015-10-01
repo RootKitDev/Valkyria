@@ -42,17 +42,7 @@
 
             // Lorsqu'on envoie le formulaire, on transmet le message et on l'affiche sur la page
             $('#chat').submit(function () {
-               var message = $('#message').val();
-
-//                if (reqNet) {
-//                    if (message == 'oui') {
-//                        socket.emit('confirmation', true);
-//                    }
-//                    else if (message == 'non'){
-//                        socket.emit('confirmation', false);
-//                    }
-//                }
-                
+                var message = $('#message').val();                
                 socket.emit('message', message); // Transmet le message aux autres
                 insereMessage('RootKit', message); // Affiche le message aussi sur notre page
                 $('#message').val('').focus(); // Vide la zone de Chat et remet le focus dessus
