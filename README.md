@@ -40,8 +40,8 @@ Set the output sound is:
 Valkyria uses a command (bash script) "speak".
 
 This command is provided in the "*./bin/*" folder, it requires two commands: "*aplay*" the alsa-utils package, which reads a .wav file and "*ico2wave*" that transforms the text into .wav file
-
-To install "*pico2wave*" on Rpi, here is an excellent[tutorial][tts]
+p
+To install "*pico2wave*" on Rpi, here is an excellent [tutorial][tts]
 
 For debian [package][libpico] "libttspico-utils" is available in the depot "non-free"
 
