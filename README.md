@@ -11,7 +11,7 @@ Valkyria currently uses three languages:
  - [Prolog][prolog] (Base rules and facts)
 
 On the long term Python will not be part of Valkyria, which will be entirely written in NodeJS and Prolog (or equivalent) will remain the base rules/facts
-toto
+
 ---
 ### Version
 0.1.0
